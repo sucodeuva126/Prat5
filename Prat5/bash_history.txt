@@ -1,0 +1,4 @@
+4 sudo nano /lib/systemd/system/card_writer_serv.service
+5 sudo systemctl daemon-reload
+6 sudo systemctl enable card_writer_serv.service
+7 sudo systemctl start card_writer_serv.service
